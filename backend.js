@@ -10,7 +10,7 @@ app.use(cors({
 app.use(json());
 
 // MongoDB Connection
-connect("mongodb+srv://snekamuthirulan27_db_user:pSQBijTxewxi9oWh@cluster0.vpvo9jg.mongodb.net/userformdb")
+connect("mongodb+srv://snekamuthirulan27_db_user:pSQBijTxewxi9oWh@cluster0.vpvo9jg.mongodb.net/usersform")
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log(err));
 
