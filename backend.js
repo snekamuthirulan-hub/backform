@@ -5,7 +5,7 @@ import cors from "cors";
 const app = express();
 
 app.use(cors({
-  origin: ["https://frontform.vercel.app","http://localhost:5173/"]
+  origin: ["https://frontform.vercel.app","http://localhost:5173"]
 }));
 app.use(json());
 
