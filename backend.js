@@ -23,10 +23,10 @@ const UserSchema = new Schema({
 
 const User = model("User", UserSchema);
 
-
 app.get("/", (req, res) => {
   res.send("Backend is running");
 });
+
 /* CREATE */
 app.post("/api/users", async (req, res) => {
   try {
